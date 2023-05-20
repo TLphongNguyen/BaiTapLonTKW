@@ -1,0 +1,207 @@
+@media (min-width : 1200px) {
+    .container-search, .container-item  {
+        max-width: 1140px;
+
+    }
+}
+@media (max-width: 992px) {
+    .container-search ,.container-item  {
+        max-width: 960px;
+    }
+    .header-item__link {
+        display: none;
+    }
+    .header-nav__phone-number {
+        display: none;
+    }
+    .header-item::after {
+        content : "";
+        position: absolute;
+        background-color: var(--primary-color);
+        width: 40%;
+        height: 5px;
+        left: 15px;
+        bottom: 0px;
+        border-radius: 5px;
+        transform: scaleX(0);
+        transform-origin:center ;
+        transition: ease-out 0.4s;
+    }
+    .header-item__active::before {
+        content : "";
+        position: absolute;
+        background-color: var(--primary-color);
+        width: 40%;
+        height: 5px;
+        left: 15px;
+        bottom: 0px;
+        border-radius: 5px;
+        display: block;
+    }
+    .ticket-item {
+        margin-bottom: 20px;
+    }
+    .banner-promotion__next, .banner-promotion__prev {
+        display: none;
+    }
+    .header-nav__left {
+        display: none;
+    }
+    .header-bar {
+        display: block;
+        cursor: pointer;
+    }
+    .location-tour__item {
+        margin-bottom: 20px;
+    }
+    .header-info__text {
+        font-size: 2rem;
+    } 
+    .banner-promotion__wrapper {
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-search ,.container-item  {
+        max-width: 720px;
+    }
+    .banner {
+        display: none;
+    }
+    .search-box {
+        margin-top: 0;
+    }
+    .header-nav__nav {
+        display: none;
+    }
+    .container-tab__list {
+        width: 100%;
+    }
+    .container-tab__item {
+        display: block;
+        width: 33.333%;
+    }
+    .container-tab__img {
+        text-align: center;
+    }
+    .container-tab__link {
+        font-size: 1.2rem;
+        display: none;
+    }
+    .plane-location {
+        margin-bottom: 10px;
+    }
+    .plane-info__option {
+        margin: 20px -20px 0 -20px;
+        padding-left: 0;
+
+    }
+    .plane-location > .plane-location__from::after {
+        content: '';
+        position: absolute;
+        width: 34px;
+        height: 1px;
+        background: #e4e7eb;
+        bottom: 18px;
+        right: -35px;
+    }
+    .plane-location__swap {
+        width: 24px;
+        height: 24px;
+        right: -48px;
+        bottom: -16px;
+        position: absolute;
+    }
+    .plane-location > .plane-location__to::after {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 26px;
+        background: #e4e7eb;
+        right: -22px;
+        bottom: 20px;
+    }
+    .plane-location > .plane-location__to::before {
+        content: '';
+        position: absolute;
+        width: 35px;
+        height: 1px;
+        background: #e4e7eb;
+        bottom: 20px;
+        right: -21px;
+    }
+    .plane-location > .plane-location__from::before {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 30px;
+        background: #e4e7eb;
+        right: -36px;
+        bottom: -12px;
+    }
+    .plane-info__option-bottom {
+        margin: 0;
+        padding: 0;
+    }
+    .hotel-search__bottom-rate {
+        margin-bottom: 16px;
+    }
+    .hotel-search__top .hotel-search__people {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .hotel-search__top .hotel-search__date {
+        display: block;
+    }
+    .hotel-search__people-rooms {
+        margin: 10px 6px;
+    }
+    .hotel-search__location,.hotel-search__date,.hotel-search__date-checkIn{
+        margin: 10px 0;
+        padding: 0;
+    }
+    .option-bottom__people {
+        margin-bottom: 10px;
+    }
+    .plane-info-btn {
+        margin-top: 20px;
+    }
+    .download-app__qr {
+        width: 40px;
+        height: auto;  
+    }
+    .download-app__item {
+        margin-right: 6px;
+    }
+    .download-app__img {
+        width: 40px;
+         height:auto
+    }
+    .download-app__list {
+        position: absolute;
+        display: flex;
+        top: 50%;
+        right: 50%;
+        transform: translate(53% , -50%);
+        align-items: center;
+    }
+    .help-mesage {
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .container-search ,.container-item {
+        max-width: 540px;
+    }
+    .banner {
+        display: none;
+    }
+    .search-box {
+        margin-top: 0;
+    }
+    .header-nav__nav {
+        display: none;
+    }
+}

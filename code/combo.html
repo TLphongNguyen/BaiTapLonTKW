@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/code/main.css">
+    <link rel="stylesheet" href="/code/base.css">
+    <link rel="stylesheet" href="/font/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="/code/main.js">
+    <link rel="stylesheet" href="/code/responsive.css">
+    <link rel="stylesheet" href="/code/grid.css">
+    <link rel="stylesheet" href="/code/main.scss">
+    <link rel="stylesheet" href="/font/FontsFree-Net-SFProDisplay-Bold.ttf/css/all.min.css">
+    <link rel="stylesheet" href="/code/extra.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="header-nav grid wide_header">
+                <div class="header-nav__left">
+                    <div class="header-logo">
+                        
+                        <a href="/code/index.html" class="header-logo__link">
+
+                            <img class = "header-logo__img" src="/img/Logo.svg" alt="logo">
+                        </a>
+                    </div>
+    
+                </div>
+                <label for = "nav-mobile-input" class="header-bar">
+                    <i class="header-bar__icon fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox"class = "nav-input" hidden id = "nav-mobile-input">
+                <label for = "nav-mobile-input" class="nav-overlay"></label>
+                <div class="nav-mobile">
+                    <label for = "nav-mobile-input" class="nav-mobile__close">
+                        <i class="nav-mobile__icon-close fa-solid fa-xmark"></i>
+                    </label>
+                    <div class="nav-mobile__content">
+                        <div class="nav-mobile__login">
+                            <a href="#" class="nav-mobile__link">
+                                <i class="nav-mobile__icon fa-solid fa-right-to-bracket"></i>   
+                                <span class="nav-mobile__text">
+                                    Đăng nhập
+                                </span>
+    
+                            </a>
+                        </div>
+                        <ul class="nav-mobile__list">
+                            
+                            <li class="nav-mobile__item">
+                                <a href="/code/plane.html" class="nav-mobile__link">
+                                    <i class="nav-mobile__icon header-nav__icon fa-solid fa-plane-up"></i>    
+                                    <span class="nav-mobile__text">
+                                        Vé máy bay
+                                    </span>
+    
+                                </a>
+                            </li>
+                            <li class="nav-mobile__item">
+                                <a href="/code/hotel.html" class="nav-mobile__link">
+    
+                                    <i class="nav-mobile__icon fa-solid fa-bed"></i>
+                                    <span class="nav-mobile__text">
+                                        Khách sạn
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-mobile__item">
+                                <a href="/code/plane.html" class="nav-mobile__link">
+                                    <i class="nav-mobile__icon fa-solid fa-golf-ball-tee"></i>
+                                    <span class="nav-mobile__text">
+                                        Sân golf 
+                                    </span>
+    
+                                </a>
+                            </li>
+                            <li class="nav-mobile__item">
+                                <a href="/code/combo.html" class="nav-mobile__link">
+    
+                                    <i class="nav-mobile__icon fa-solid fa-clipboard-list"></i>
+                                    <span class="nav-mobile__text">
+                                        Combo
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-mobile__item">
+                                <a href="/code/plane.html" class="nav-mobile__link">
+    
+                                    <i class="nav-mobile__icon fa-solid fa-ticket"></i>
+                                    <span class="nav-mobile__text">
+                                       vé vui chơi  
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-mobile__item">
+                                <a href="/code/plane.html" class="nav-mobile__link">
+    
+                                    <i class="nav-mobile__icon fa-solid fa-newspaper"></i>
+                                    <span class="nav-mobile__text">
+                                        Tin Tức
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-nav__nav">
+                    <ul class="header-list">
+                        
+                        <li class="header-item ">
+                            <a href="/code/plane.html" class="header-item__link">
+                                <i class="plane-info__option-icon header-nav__icon fa-solid fa-plane-up"></i>    
+                                <span class="header-item__text">
+                                    Vé máy bay
+                                </span>
+
+                            </a>
+                        </li>
+                        <li class="header-item">
+                            <a href="/code/hotel.html" class="header-item__link">
+
+                                <i class="header-nav__icon fa-solid fa-bed"></i>
+                                <span class="header-item__text">
+                                    Khách sạn
+                                </span>
+                            </a>
+                        </li>
+                        <li class="header-item">
+                            <a href="/code/plane.html" class="header-item__link">
+                                <i class="header-nav__icon fa-solid fa-golf-ball-tee"></i>
+                                <span class="header-item__text">
+                                    Sân golf 
+                                </span>
+
+                            </a>
+                        </li>
+                        <li class="header-item header-item__active">
+                            <a href="/code/combo.html" class="header-item__link">
+
+                                <i class="header-nav__icon fa-solid fa-clipboard-list"></i>
+                                <span class="header-item__text">
+                                    Combo
+                                </span>
+                            </a>
+                        </li>
+                        <li class="header-item">
+                            <a href="/code/plane.html" class="header-item__link">
+
+                                <i class="header-nav__icon fa-solid fa-ticket"></i>
+                                <span class="header-item__text">
+                                   vé vui chơi  
+                                </span>
+                            </a>
+                        </li>
+                        <li class="header-item">
+                            <a href="/code/plane.html" class="header-item__link">
+
+                                <i class="header-nav__icon fa-solid fa-newspaper"></i>
+                                <span class="header-item__text">
+                                    Tin Tức
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+    
+                </div>
+                <div class="header-nav__right">
+                    <div class="header-nav__contact">
+                        <i class="header-nav__icon fa-solid fa-phone"></i>
+                        <a href="tel : 0862889603" class="header-nav__phone-number">
+                            0862 - 889 - 603
+
+                        </a>
+                        
+                    </div>
+                    <div class="header-nav__right-icon">
+                        <i class="header-nav__icon fa-solid fa-globe"></i>
+                    </div>
+                    <button class="header-nav__right-login">
+                        Đăng nhập
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="clear-fix"></div>
+        <div class="body">
+            <div class="combo-banner">
+                <div class="grid wide_header">
+                    <div class="combo-banner__content">
+                        <img src="/img/combobanner.jpg" alt="" class="combo-banner__img">
+                        <div class="combo-banner__text">
+                            Combo tiết kiệm
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-combo">
+                <div class="container-item">
+                    <div class="search-combo__content">
+                        <div class="search-combo__form">
+                            <input type="text" placeholder="Nhập thông tin tìm kiếm" class="search-combo__input">
+                            <button class="search-combo__btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="combo-slinder">
+                <div class="container-item">
+                    <div class="combo-slinder__content">
+                        <button class="combo-slinder__btn prev">
+                            <i class="combo-slinder__icon fa-solid fa-chevron-left"></i>
+                        </button>
+                        <ul class="combo-slinder__list">
+                            <li class="combo-slinder__item">
+                                <a href="" class="combo-slinder__link">
+                                    <img src="/img/hanoi-combo.jpg" alt="" class="combo-slinder__img">
+                                    <div class="combo-slinder__location">
+                                        <h4 class="combo-slinder__name">
+                                            Ha Noi
+                                        </h4>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="combo-slinder__item">
+                                <a href="" class="combo-slinder__link">
+                                    <img src="/img/hanoi-combo.jpg" alt="" class="combo-slinder__img">
+                                    <div class="combo-slinder__location">
+                                        <h4 class="combo-slinder__name">
+                                            Ha Noi
+                                        </h4>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="combo-slinder__item">
+                                <a href="" class="combo-slinder__link">
+                                    <img src="/img/hanoi-combo.jpg" alt="" class="combo-slinder__img">
+                                    <div class="combo-slinder__location">
+                                        <h4 class="combo-slinder__name">
+                                            Ha Noi
+                                        </h4>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="combo-slinder__item">
+                                <a href="" class="combo-slinder__link">
+                                    <img src="/img/hanoi-combo.jpg" alt="" class="combo-slinder__img">
+                                    <div class="combo-slinder__location">
+                                        <h4 class="combo-slinder__name">
+                                            Ha Noi
+                                        </h4>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="combo-slinder__item">
+                                <a href="" class="combo-slinder__link">
+                                    <img src="/img/hanoi-combo.jpg" alt="" class="combo-slinder__img">
+                                    <div class="combo-slinder__location">
+                                        <h4 class="combo-slinder__name">
+                                            Ha Noi
+                                        </h4>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="combo-slinder__item">
+                                <a href="" class="combo-slinder__link">
+                                    <img src="/img/hanoi-combo.jpg" alt="" class="combo-slinder__img">
+                                    <div class="combo-slinder__location">
+                                        <h4 class="combo-slinder__name">
+                                            Ha Noi
+                                        </h4>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="combo-slinder__item">
+                                <a href="" class="combo-slinder__link">
+                                    <img src="/img/hanoi-combo.jpg" alt="" class="combo-slinder__img">
+                                    <div class="combo-slinder__location">
+                                        <h4 class="combo-slinder__name">
+                                            Ha Noi
+                                        </h4>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <button class="combo-slinder__btn next">
+                            <i class="combo-slinder__icon fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="combo-tour">
+                <div class="container-item">
+                    
+                    <div class="combo-tour__list row">
+                        <div class="col combo-tour__item l-4">
+                            <div class="combo-tour__link">
+                                <a href="#" class="combo-tour__banner">
+                                    <img src="/img/combo1.jpg" class = "combo-tour__img" alt="">
+                                </a>
+                                <div class="combo-tour__sale">
+                                    <span>0%</span>
+                                </div>
+                                <div class="combo-tour__body">
+                                    <a href="" class="combo-tour__title">
+                                        HÀ NỘI - ĐẢO NGỌC PHÚ QUỐC
+                                    </a>
+                                    <div class="combo-tour__info">
+                                        <div class="combo-tour__info-left">
+                                            <div class="info-left__top">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span class="ticket-item__date">
+                                                    4 ngày 3 đêm
+                                                </span>
+                                            </div>
+                                            <div class="info-left__bottom">
+                                                <i class="fa-regular fa-hourglass-half"></i>
+                                                <span class="ticket-item__date">
+                                                    260 Ngày 10 Giờ 8 phút..
+                                                </span>
+    
+                                            </div>
+                                        </div>
+                                        <div class="combo-tour__info-right">
+                                            <div class="info-right__txt">
+                                                Số lượng: 20
+                                            </div>
+                                            <div class="info-right__txt">
+                                                Đã mua: 14
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-seperate"></div>
+                                    <div class="ticket-item__footer">
+                                        <div class="ticket-item__footer-left">
+                                            <div class="combo-tour__price-old">
+                                                7.390.000 VND
+                                            </div>
+                                            <div class="ticket-item__price">
+                                                <span>Từ</span>
+                                                7.390.000 VND
+                                            </div>
+                                            <div class="ticket-item__footer-text">
+                                                Đã bao gồm thuế & phí
+                                            </div>
+                                        </div>
+                                        <div class="ticket-item__footer__right">
+                                            <button class="ticket-item__footer-ntn">Chi tiết</button>
+                                            <div class="item__footer-info">
+                                                Đặt trước 7 ngày
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col combo-tour__item l-4">
+                            <div class="combo-tour__link">
+                                <a href="#" class="combo-tour__banner">
+                                    <img src="/img/combo2.jpg" class = "combo-tour__img" alt="">
+                                </a>
+                                <div class="combo-tour__sale">
+                                    <span>0%</span>
+                                </div>
+                                <div class="combo-tour__body">
+                                    <a href="" class="combo-tour__title">
+                                        HÀ NỘI - ĐÀ NẴNG - BÀ NÀ - HỘI AN - HÀ NỘI
+                                    </a>
+                                    <div class="combo-tour__info">
+                                        <div class="combo-tour__info-left">
+                                            <div class="info-left__top">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span class="ticket-item__date">
+                                                    4 ngày 3 đêm
+                                                </span>
+                                            </div>
+                                            <div class="info-left__bottom">
+                                                <i class="fa-regular fa-hourglass-half"></i>
+                                                <span class="ticket-item__date">
+                                                    260 Ngày 10 Giờ 8 phút..
+                                                </span>
+    
+                                            </div>
+                                        </div>
+                                        <div class="combo-tour__info-right">
+                                            <div class="info-right__txt">
+                                                Số lượng: 20
+                                            </div>
+                                            <div class="info-right__txt">
+                                                Đã mua: 14
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-seperate"></div>
+                                    <div class="ticket-item__footer">
+                                        <div class="ticket-item__footer-left">
+                                            <div class="combo-tour__price-old">
+                                                5.590.000 VND
+                                            </div>
+                                            <div class="ticket-item__price">
+                                                <span>Từ</span>
+                                                5.590.000 VND
+                                            </div>
+                                            <div class="ticket-item__footer-text">
+                                                Đã bao gồm thuế & phí
+                                            </div>
+                                        </div>
+                                        <div class="ticket-item__footer__right">
+                                            <button class="ticket-item__footer-ntn">Chi tiết</button>
+                                            <div class="item__footer-info">
+                                                Đặt trước 7 ngày
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col combo-tour__item l-4">
+                            <div class="combo-tour__link">
+                                <a href="#" class="combo-tour__banner">
+                                    <img src="/img/combo3.jpg" class = "combo-tour__img" alt="">
+                                </a>
+                                <div class="combo-tour__sale">
+                                    <span>24%</span>
+                                </div>
+                                <div class="combo-tour__body">
+                                    <a href="" class="combo-tour__title">
+                                        TOUR TAM CHÚC vs KHU LỊCH TRÀNG AN 1 NGÀY - KHỞI HÀNH HÀNG NGÀY
+                                    </a>
+                                    <div class="combo-tour__info">
+                                        <div class="combo-tour__info-left">
+                                            <div class="info-left__top">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span class="ticket-item__date">
+                                                    4 ngày 3 đêm
+                                                </span>
+                                            </div>
+                                            <div class="info-left__bottom">
+                                                <i class="fa-regular fa-hourglass-half"></i>
+                                                <span class="ticket-item__date">
+                                                    260 Ngày 10 Giờ 8 phút..
+                                                </span>
+    
+                                            </div>
+                                        </div>
+                                        <div class="combo-tour__info-right">
+                                            <div class="info-right__txt">
+                                                Số lượng: 20
+                                            </div>
+                                            <div class="info-right__txt">
+                                                Đã mua: 14
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-seperate"></div>
+                                    <div class="ticket-item__footer">
+                                        <div class="ticket-item__footer-left">
+                                            <div class="combo-tour__price-old">
+                                                1.250.000 VND
+                                            </div>
+                                            <div class="ticket-item__price">
+                                                <span>Từ</span>
+                                                950.000 VND
+                                            </div>
+                                            <div class="ticket-item__footer-text">
+                                                Đã bao gồm thuế & phí
+                                            </div>
+                                        </div>
+                                        <div class="ticket-item__footer__right">
+                                            <button class="ticket-item__footer-ntn">Chi tiết</button>
+                                            <div class="item__footer-info">
+                                                Đặt trước 7 ngày
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col combo-tour__item l-4">
+                            <div class="combo-tour__link">
+                                <a href="#" class="combo-tour__banner">
+                                    <img src="/img/combo1.jpg" class = "combo-tour__img" alt="">
+                                </a>
+                                <div class="combo-tour__sale">
+                                    <span>0%</span>
+                                </div>
+                                <div class="combo-tour__body">
+                                    <a href="" class="combo-tour__title">
+                                        HÀ NỘI - ĐẢO NGỌC PHÚ QUỐC
+                                    </a>
+                                    <div class="combo-tour__info">
+                                        <div class="combo-tour__info-left">
+                                            <div class="info-left__top">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span class="ticket-item__date">
+                                                    4 ngày 3 đêm
+                                                </span>
+                                            </div>
+                                            <div class="info-left__bottom">
+                                                <i class="fa-regular fa-hourglass-half"></i>
+                                                <span class="ticket-item__date">
+                                                    260 Ngày 10 Giờ 8 phút..
+                                                </span>
+    
+                                            </div>
+                                        </div>
+                                        <div class="combo-tour__info-right">
+                                            <div class="info-right__txt">
+                                                Số lượng: 20
+                                            </div>
+                                            <div class="info-right__txt">
+                                                Đã mua: 14
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-seperate"></div>
+                                    <div class="ticket-item__footer">
+                                        <div class="ticket-item__footer-left">
+                                            <div class="combo-tour__price-old">
+                                                7.390.000 VND
+                                            </div>
+                                            <div class="ticket-item__price">
+                                                <span>Từ</span>
+                                                7.390.000 VND
+                                            </div>
+                                            <div class="ticket-item__footer-text">
+                                                Đã bao gồm thuế & phí
+                                            </div>
+                                        </div>
+                                        <div class="ticket-item__footer__right">
+                                            <button class="ticket-item__footer-ntn">Chi tiết</button>
+                                            <div class="item__footer-info">
+                                                Đặt trước 7 ngày
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col combo-tour__item l-4">
+                            <div class="combo-tour__link">
+                                <a href="#" class="combo-tour__banner">
+                                    <img src="/img/combo2.jpg" class = "combo-tour__img" alt="">
+                                </a>
+                                <div class="combo-tour__sale">
+                                    <span>0%</span>
+                                </div>
+                                <div class="combo-tour__body">
+                                    <a href="" class="combo-tour__title">
+                                        HÀ NỘI - ĐÀ NẴNG - BÀ NÀ - HỘI AN - HÀ NỘI
+                                    </a>
+                                    <div class="combo-tour__info">
+                                        <div class="combo-tour__info-left">
+                                            <div class="info-left__top">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span class="ticket-item__date">
+                                                    4 ngày 3 đêm
+                                                </span>
+                                            </div>
+                                            <div class="info-left__bottom">
+                                                <i class="fa-regular fa-hourglass-half"></i>
+                                                <span class="ticket-item__date">
+                                                    260 Ngày 10 Giờ 8 phút..
+                                                </span>
+    
+                                            </div>
+                                        </div>
+                                        <div class="combo-tour__info-right">
+                                            <div class="info-right__txt">
+                                                Số lượng: 20
+                                            </div>
+                                            <div class="info-right__txt">
+                                                Đã mua: 14
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-seperate"></div>
+                                    <div class="ticket-item__footer">
+                                        <div class="ticket-item__footer-left">
+                                            <div class="combo-tour__price-old">
+                                                5.590.000 VND
+                                            </div>
+                                            <div class="ticket-item__price">
+                                                <span>Từ</span>
+                                                5.590.000 VND
+                                            </div>
+                                            <div class="ticket-item__footer-text">
+                                                Đã bao gồm thuế & phí
+                                            </div>
+                                        </div>
+                                        <div class="ticket-item__footer__right">
+                                            <button class="ticket-item__footer-ntn">Chi tiết</button>
+                                            <div class="item__footer-info">
+                                                Đặt trước 7 ngày
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col combo-tour__item l-4">
+                            <div class="combo-tour__link">
+                                <a href="#" class="combo-tour__banner">
+                                    <img src="/img/combo3.jpg" class = "combo-tour__img" alt="">
+                                </a>
+                                <div class="combo-tour__sale">
+                                    <span>24%</span>
+                                </div>
+                                <div class="combo-tour__body">
+                                    <a href="" class="combo-tour__title">
+                                        TOUR TAM CHÚC vs KHU LỊCH TRÀNG AN 1 NGÀY - KHỞI HÀNH HÀNG NGÀY
+                                    </a>
+                                    <div class="combo-tour__info">
+                                        <div class="combo-tour__info-left">
+                                            <div class="info-left__top">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span class="ticket-item__date">
+                                                    4 ngày 3 đêm
+                                                </span>
+                                            </div>
+                                            <div class="info-left__bottom">
+                                                <i class="fa-regular fa-hourglass-half"></i>
+                                                <span class="ticket-item__date">
+                                                    260 Ngày 10 Giờ 8 phút..
+                                                </span>
+    
+                                            </div>
+                                        </div>
+                                        <div class="combo-tour__info-right">
+                                            <div class="info-right__txt">
+                                                Số lượng: 20
+                                            </div>
+                                            <div class="info-right__txt">
+                                                Đã mua: 14
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-seperate"></div>
+                                    <div class="ticket-item__footer">
+                                        <div class="ticket-item__footer-left">
+                                            <div class="combo-tour__price-old">
+                                                1.250.000 VND
+                                            </div>
+                                            <div class="ticket-item__price">
+                                                <span>Từ</span>
+                                                950.000 VND
+                                            </div>
+                                            <div class="ticket-item__footer-text">
+                                                Đã bao gồm thuế & phí
+                                            </div>
+                                        </div>
+                                        <div class="ticket-item__footer__right">
+                                            <button class="ticket-item__footer-ntn">Chi tiết</button>
+                                            <div class="item__footer-info">
+                                                Đặt trước 7 ngày
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="advise-travel">
+                <div class="container-wrapper">
+                    <div class="advise-travel__list row">
+                        <div class="advise-travel__item col l-4">
+                            <div class="advise-travel__content">
+                                <div class="advise-travel__header">
+                                    <img src="/img/tv1.png" alt="" class="advise-travel__img">
+                                </div>
+                                <div class="advise-travel__body">
+                                    <h4 class="advise-travel__text">
+                                        Tư vấn tận tâm 24/7
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advise-travel__item col l-4">
+                            <div class="advise-travel__content">
+                                <div class="advise-travel__header">
+                                    <img src="/img/tv2.png" alt="" class="advise-travel__img">
+                                </div>
+                                <div class="advise-travel__body">
+                                    <h4 class="advise-travel__text">
+                                        Ưu đãi lớn với MobiFone
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advise-travel__item col l-4">
+                            <div class="advise-travel__content">
+                                <div class="advise-travel__header">
+                                    <img src="/img/tv3.png" alt="" class="advise-travel__img">
+                                </div>
+                                <div class="advise-travel__body">
+                                    <h4 class="advise-travel__text">
+                                        Giá rẻ mỗi ngày
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container-item">
+                <div class="footer-top row">
+                    <div class="footer-top__left col l-5 row">
+                        <div class="footer-top__left-item col l-4">
+                            <h4 class="header-text">Về TravelLink</h4>
+                            <ul class="text-list">
+                                <li class="text-item">
+                                    <a href="" class="text-link">Giới thiệu</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-top__left-item col l-8">
+                            <h4 class="header-text">Dịch vụ liên kết</h4>
+                            <ul class="text-list">
+                                <li class="text-item">
+                                    <a href="" class="text-link">Travel Go - Đặt xe sân bay</a>
+                                </li>
+                                <li class="text-item">
+                                    <a href="" class="text-link">Travel Hotel - Đặt phòng khách sạn</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-top__center col l-3">
+                        <h4 class="header-text">Hướng dẫn, chính sách và quy chế</h4>
+                            <ul class="text-list">
+                                <li class="text-item">
+                                    <a href="" class="text-link">Quy chế hoạt động</a>
+                                </li>
+                                <li class="text-item">
+                                    <a href="" class="text-link">Chính sách bảo mật thông tin</a>
+                                </li>
+                                <li class="text-item">
+                                    <a href="" class="text-link">Cơ chế giải quyết tranh chấp</a>
+                                </li>
+                                <li class="text-item">
+                                    <a href="" class="text-link">Tài liệu hướng dẫn sử dụng dịch vụ</a>
+                                </li>
+                                <li class="text-item">
+                                    <a href="" class="text-link">Điều khoản sử dụng Travellink</a>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="footer-top__right col l-4">
+                        <h4 class="header-text">Đăng ký nhận thông tin và ưu đãi</h4>
+                        <div class="footer-send">
+                            <input type="email" placeholder="Email của bạn" class="footer-input">
+                            <button class="footer-btn">
+                                <i class="footer-send__icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom row">
+                    <div class="footer-top__bottom-left col l-5">
+                        <h4 class="header-text">CÔNG TY CỔ PHẦN CÔNG NGHỆ VÀ TRUYỀN THÔNG TLINHPHONG</h4>
+                        <h3 class="text-h3">
+                            Người đại diện: NGUYỄN TIẾN LINH PHONG
+                        </h3>
+                        <div class="address">
+                            <p class="address-text">
+                                Địa chỉ: Số 10-12 Trần Tử Bình, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam
+                            </p>
+                            <p class="address-text">
+                                Email: acelinhphong@gmail.com
+                            </p>
+                            <p class="address-text">
+                                Điện thoại: 1900 2323 85
+                            </p>
+                        </div>
+                        <div class="footer-brand">
+                            <a href="" class="footer-brand__link">
+                                <img src="/img/footer.png" style = "width: 200px;" alt="" class="footer-brand__img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-top__bottom-right col l-4">
+                        <h4 class="header-text">Về TravelLink</h4>
+                        <div class="download-app">
+                            <div class="download-app__mobile">
+                                <a href="" class="download-app__link">
+                                    <img src="/img/ic-appstore.png" alt="" class="download-app__img">
+                                </a>
+                                <a href="" class="download-app__link">
+                                    <img src="/img/ic-ggplay.png" alt="" class="download-app__img">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="download-qr">
+                            <a href="" class="download-app__link">
+                                <img src="/img/qr-code.png" style = "width: 120px; height: 120px; margin: 40px 0;" alt="" class="download-qr__img">
+
+                            </a>
+                        </div>
+                        <p class="address-text">
+                            Số Giấy chứng nhận đăng ký doanh nghiệp: 0109058713, ngày cấp lần đầu: 07/01/2020, nơi cấp Sở Kế hoạch và Đầu tư thành phố Hà Nội.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-wrapper" style = "margin-bottom: 60px;">
+                <div class="footer-contact">
+                    <p class="footer-contact__info">
+                        Copyright © 2022 Travel Link
+                    </p>
+                    <ul class="footer-contact__social">
+                        <li class="footer-contact__item">
+                            <i class="fa-brands fa-facebook"></i>
+                            facebook
+                        </li>
+                        <li class="footer-contact__item">
+                            <i class="fa-brands fa-instagram"></i>
+                            instagram
+                        </li>
+                        <li class="footer-contact__item">
+                            <i class="fa-brands fa-youtube"></i>
+                            youtube
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="help-mesage">
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <span>Trợ giúp</span>
+        </div>
+
+
+
+    </div>
+    <script src = "./main.js"></script>
+</body>
+</html>

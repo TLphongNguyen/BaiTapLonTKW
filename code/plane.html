@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/code/main.css">
+    <link rel="stylesheet" href="/code/base.css">
+    <link rel="stylesheet" href="/font/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="/code/main.js">
+    <link rel="stylesheet" href="/code/responsive.css">
+    <link rel="stylesheet" href="/code/grid.css">
+    <link rel="stylesheet" href="/code/main.scss">
+    <link rel="stylesheet" href="/font/FontsFree-Net-SFProDisplay-Bold.ttf/css/all.min.css">
+    <link rel="stylesheet" href="/code/extra.css">
+    <!-- <link rel="icon" href="/img/logoweb.png" type="image/gif" sizes="32x32"> -->
+    <title>TravelLink</title>
+</head>
+<body>
+   <div class="app">
+    <div class="header">
+        <div class="header-nav grid wide_header">
+            <div class="header-nav__left">
+                <div class="header-logo">
+                    <a href="/code/index.html" class="header-logo__link">
+
+                        <img class = "header-logo__img" src="/img/Logo.svg" alt="logo">
+                    </a>
+                </div>
+
+            </div>
+            <label for = "nav-mobile-input" class="header-bar">
+                <i class="header-bar__icon fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox"class = "nav-input" hidden id = "nav-mobile-input">
+            <label for = "nav-mobile-input" class="nav-overlay"></label>
+            <div class="nav-mobile">
+                <label for = "nav-mobile-input" class="nav-mobile__close">
+                    <i class="nav-mobile__icon-close fa-solid fa-xmark"></i>
+                </label>
+                <div class="nav-mobile__content">
+                    <div class="nav-mobile__login">
+                        <a href="#" class="nav-mobile__link">
+                            <i class="nav-mobile__icon fa-solid fa-right-to-bracket"></i>   
+                            <span class="nav-mobile__text">
+                                Đăng nhập
+                            </span>
+
+                        </a>
+                    </div>
+                    <ul class="nav-mobile__list">
+                        
+                        <li class="nav-mobile__item">
+                            <a href="/code/plane.html" class="nav-mobile__link">
+                                <i class="nav-mobile__icon header-nav__icon fa-solid fa-plane-up"></i>    
+                                <span class="nav-mobile__text">
+                                    Vé máy bay
+                                </span>
+
+                            </a>
+                        </li>
+                        <li class="nav-mobile__item">
+                            <a href="/code/hotel.html" class="nav-mobile__link">
+
+                                <i class="nav-mobile__icon fa-solid fa-bed"></i>
+                                <span class="nav-mobile__text">
+                                    Khách sạn
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-mobile__item">
+                            <a href="/code/plane.html" class="nav-mobile__link">
+                                <i class="nav-mobile__icon fa-solid fa-golf-ball-tee"></i>
+                                <span class="nav-mobile__text">
+                                    Sân golf 
+                                </span>
+
+                            </a>
+                        </li>
+                        <li class="nav-mobile__item">
+                            <a href="/code/combo.html" class="nav-mobile__link">
+
+                                <i class="nav-mobile__icon fa-solid fa-clipboard-list"></i>
+                                <span class="nav-mobile__text">
+                                    Combo
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-mobile__item">
+                            <a href="/code/plane.html" class="nav-mobile__link">
+
+                                <i class="nav-mobile__icon fa-solid fa-ticket"></i>
+                                <span class="nav-mobile__text">
+                                   vé vui chơi  
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-mobile__item">
+                            <a href="/code/plane.html" class="nav-mobile__link">
+
+                                <i class="nav-mobile__icon fa-solid fa-newspaper"></i>
+                                <span class="nav-mobile__text">
+                                    Tin Tức
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-nav__nav">
+                <ul class="header-list">
+                    
+                    <li class="header-item header-item__active">
+                        <a href="/code/plane.html" class="header-item__link">
+                            <i class="plane-info__option-icon header-nav__icon fa-solid fa-plane-up"></i>    
+                            <span class="header-item__text">
+                                Vé máy bay
+                            </span>
+
+                        </a>
+                    </li>
+                    <li class="header-item">
+                        <a href="/code/hotel.html" class="header-item__link">
+
+                            <i class="header-nav__icon fa-solid fa-bed"></i>
+                            <span class="header-item__text">
+                                Khách sạn
+                            </span>
+                        </a>
+                    </li>
+                    <li class="header-item">
+                        <a href="/code/plane.html" class="header-item__link">
+                            <i class="header-nav__icon fa-solid fa-golf-ball-tee"></i>
+                            <span class="header-item__text">
+                                Sân golf 
+                            </span>
+
+                        </a>
+                    </li>
+                    <li class="header-item">
+                        <a href="/code/combo.html" class="header-item__link">
+
+                            <i class="header-nav__icon fa-solid fa-clipboard-list"></i>
+                            <span class="header-item__text">
+                                Combo
+                            </span>
+                        </a>
+                    </li>
+                    <li class="header-item">
+                        <a href="/code/plane.html" class="header-item__link">
+
+                            <i class="header-nav__icon fa-solid fa-ticket"></i>
+                            <span class="header-item__text">
+                               vé vui chơi  
+                            </span>
+                        </a>
+                    </li>
+                    <li class="header-item">
+                        <a href="/code/plane.html" class="header-item__link">
+
+                            <i class="header-nav__icon fa-solid fa-newspaper"></i>
+                            <span class="header-item__text">
+                                Tin Tức
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="header-nav__right">
+                <div class="header-nav__contact">
+                    <i class="header-nav__icon fa-solid fa-phone"></i>
+                    <a href="tel : 0862889603" class="header-nav__phone-number">
+                        0862 - 889 - 603
+
+                    </a>
+                    
+                </div>
+                <div class="header-nav__right-icon">
+                    <i class="header-nav__icon fa-solid fa-globe"></i>
+                </div>
+                <button class="header-nav__right-login">
+                    Đăng nhập
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="clear-fix"></div>
+    <div class="body">
+        <div class="banner">
+            <div class="grid wide_header">
+                <div class="banner-sliner">
+                    <button class="control-sliner-prev">
+                        <i class="control-sliner__icon fa-solid fa-chevron-left"></i>
+                    </button>    
+                    <div class="slinder-wrapper">
+                        <ul class="sliner-list">
+                            <div href="#" class="banner__link">
+                                <img src="/img/banner.png" alt="" class="banner__img">
+                            </div>
+                            <div href="#" class="banner__link">
+                                <img src="/img/banner4.png" alt="" class="banner__img">
+                            </div>
+                            <div href="#" class="banner__link">
+                                <img src="/img/banner3.png" alt="" class="banner__img">
+                            </div>
+                        </ul>
+                    </div>
+                    <button class="control-sliner-next">
+                        <i class="control-sliner__icon fa-solid fa-chevron-right"></i>
+                    </button> 
+
+                </div>
+
+            </div>
+        </div>
+        <div class="search-box ">
+            <div class="container-item">
+                <div class="container-tab">
+                    <ul class="container-tab__list">
+                        <li class="container-tab__item container-tab__item-active">
+                            <img class="container-tab__img" src="/img/icon_Flight.svg" height="22" alt="Vé máy bay">    
+                            <div class="container-tab__link">Vé máy bay</div>
+                        </li>
+                        <li class="container-tab__item">
+                            <img class="container-tab__img" src="/img/icon_Hotel.svg" height="22" alt="khach san">    
+                            <div class="container-tab__link">Khách sạn</div>
+                        </li>
+                        <li class="container-tab__item">
+                            <img class="container-tab__img" src="/img/icon_Golf.svg" height="22" alt="san gofl">    
+                            <div class="container-tab__link">Sân golf</div>
+                        </li>
+                    </ul>
+                    <div class="content-tap">
+                        <div class="content-tap__plane row">
+                            <div class="plane-location col l-3">
+                                <div class="plane-location__from margin-bottom">
+                                    <span class="location__from-text">
+                                        <i class="location__from-icon fa-solid fa-location-dot"></i>
+                                        Điểm đi
+                                    </span>
+                                    <input type="text" placeholder="Hà Nội" class="location__from-location ">
+                                </div>
+                                <div class="plane-location__fly">
+                                    <div class="plane-location__swap">
+                                        <img src="/img/swap.svg" alt="" class="plane-location__img">
+                                        <i class="plane-location__icon fa-solid fa-plane"></i>
+                                    </div>
+                                    <!-- <span class="">
+                                        <i class="plane-location__icon fa-solid fa-plane"></i>
+                                    </span> -->
+                                </div>
+                                <div class="border-seperate" style = " border : none;"></div>
+                                <div class="plane-location__to">
+                                    <span class="location__from-text">
+                                        <i class="location__form-icon fa-solid fa-location-dot"></i>
+                                        Điểm đến
+                                    </span>
+                                    <input type="text" placeholder="Hưng Yên" class="location__from-location ">
+                                </div>
+                            </div>
+                            <div class="plane-date l-3 col">
+                                <div class="plane-location__from margin-bottom">
+                                    <span class="location__from-text">
+                                        <i class="location__from-icon fa-solid fa-calendar-days"></i>
+                                        Ngày đi
+                                    </span>
+                                    <input type="date" class="date__from-fly ">
+                                </div>
+                                <div class="plane-location__from">
+                                    <span class="location__from-text">
+                                        <i class="location__from-icon fa-solid fa-calendar-days"></i>
+                                        Ngày về
+                                    </span>
+                                    <input type="date" class="date__from-fly ">
+                                </div>
+                            </div>
+                            <div class="plane-info col l-6">
+                                <div class="plane-info__wapper row">
+
+                                    <div class="plane-info__option col l-8">
+                                        <div class="plane-info__option-top row">
+                                            <div class="option-top__check col l-4">
+                                                <input type="checkbox" class="plane-info__option-check">
+                                                <span class="plane-info__option-text">Khứ hồi</span>
+                                            </div>
+                                            <div class="plane-info__option-category col l-8">
+                                                <div class="option-category__chair">
+                                                    <i class="plane-info__option-icon fa-solid fa-chair"></i>
+                                                    Hạng ghế
+                                                </div>
+                                                <select name="chair" id="chair" class="option-category__seat">
+                                                    <option value="">Tất cả hạng vé</option>
+                                                    <option value="">Thương gia</option>
+                                                    <option value="">Phổ thông tiết kiệm</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plane-info__option-bottom row">
+                                            <div class="option-bottom__people col l-4">
+                                                <div class="option-bottom__text">
+                                                    <i class="plane-info__option-icon fa-solid fa-children"></i>
+                                                    Người lớn
+                                                </div>
+                                                <select name="human" id="human" class="option-bottom__human">
+                                                    <option value="">0</option>
+                                                    <option value="">1</option>
+                                                    <option value="">2</option>
+                                                    <option value="">3</option>
+                                                    <option value="">4</option>
+                                                    <option value="">5</option>
+                                                    <option value="">6</option>
+                                                    <option value="">7</option>
+                                                    <option value="">8</option>
+                                                    <option value="">9</option>
+        
+                                                </select>
+                                            </div>
+                                            <div class="option-bottom__people col l-4">
+                                                <div class="option-bottom__text">
+                                                    <i class="plane-info__option-icon fa-solid fa-child"></i>
+                                                    trẻ em
+                                                </div>
+                                                <select name="" id="" class="option-bottom__child">
+                                                    <option value="">0</option>
+                                                    <option value="">1</option>
+                                                    <option value="">2</option>
+                                                    <option value="">3</option>
+                                                    <option value="">4</option>
+                                                    <option value="">5</option>
+                                                    <option value="">6</option>
+                                                    <option value="">7</option>
+                                                    <option value="">8</option>
+                                                    <option value="">9</option>
+                                                </select>
+                                                
+                                            </div>
+                                            <div class="option-bottom__people col l-4">
+                                                
+                                                <div class="option-bottom__text">
+                                                    <i class="plane-info__option-icon fa-solid fa-baby"></i>
+                                                    sơ sinh
+                                                </div>
+                                                <select name="" id="" class="option-bottom__baby">
+                                                    <option value="">0</option>
+                                                    <option value="">1</option>
+                                                    <option value="">2</option>
+                                                    <option value="">3</option>
+                                                    <option value="">4</option>
+                                                    <option value="">5</option>
+                                                    <option value="">6</option>
+                                                    <option value="">7</option>
+                                                    <option value="">8</option>
+                                                    <option value="">9</option>
+                                                </select>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                    <div class="plane-info__search col l-4">
+                                        <button class="plane-info-btn">
+                                            Tìm chuyến bay
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-tap__hotel">
+                            <div class="hotel-search__top row">
+                                <div class="hotel-search__location l-4">
+                                    <div class="hotel-search__location-text">
+                                        <i class="hotel-search__icon fa-solid fa-location-dot"></i>
+                                        Địa điểm / Tên khách sạn 
+                                    </div>
+                                    <input type="text" placeholder="VD: Hưng Yên" class="hotel-search__location-input">
+                                </div>
+                                <div class="hotel-search__date l-4">
+                                    <div class="hotel-search__date-checkIn">
+                                        <div class="date-checkIn__text">
+                                            <i class="hotel-search__icon fa-regular fa-calendar-days"></i>
+                                            Ngày nhận phòng
+                                        </div>
+                                        <input type="date" class="date-checkIn_input">
+                                    </div>
+                                    <div class="hotel-search__date-checkIn">
+                                        <div class="date-checkIn__text">
+                                            <i class="hotel-search__icon fa-regular fa-calendar-days"></i>
+                                            Ngày trả phòng
+                                        </div>
+                                        <input type="date" class="date-checkIn_input">
+                                    </div>
+
+                                </div>
+                                <div class="hotel-search__people l-4">
+                                    <div class="hotel-search__people-rooms">
+                                        <div class="people-rooms-text">
+                                            <i class="hotel-search__icon fa-solid fa-children"></i>
+                                            Số phòng
+                                        </div>
+                                        <select name="rooms" id="rooms" class="people-rooms-input">
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                            <option value="">4</option>
+                                            <option value="">5</option>
+                                            <option value="">6</option>
+                                            <option value="">7</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="hotel-search__people-rooms">
+                                        <div class="people-rooms-text">
+                                            <i class="hotel-search__icon fa-solid fa-children"></i>
+                                            Người lớn
+                                        </div>
+                                        <select name="rooms" id="rooms" class="people-rooms-input">
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                            <option value="">4</option>
+                                            <option value="">5</option>
+                                            <option value="">6</option>
+                                            <option value="">7</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="hotel-search__people-rooms">
+                                        <div class="people-rooms-text">
+                                            <i class="hotel-search__icon fa-solid fa-baby"></i>
+                                            trẻ em
+                                        </div>
+                                        <select name="rooms" id="rooms" class="people-rooms-input">
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                            <option value="">4</option>
+                                            <option value="">5</option>
+                                            <option value="">6</option>
+                                            <option value="">7</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel-search__bottom row">
+                                <div class="hotel-search__bottom-rate l-10">
+                                    <div class="bottom-rate__text">
+                                        Hạng sao:
+                                    </div>
+                                    <div class="bottom-rate_stars">
+                                        2
+                                        <i class="hotel-search__icon fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="bottom-rate_stars bottom-rate_stars-active">
+                                        3
+                                        <i class="hotel-search__icon fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="bottom-rate_stars">
+                                        4
+                                        <i class="hotel-search__icon fa-solid fa-star"></i>
+                                    </div><div class="bottom-rate_stars">
+                                        5
+                                        <i class="hotel-search__icon fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="hotel-search__bottom-btn l-2">
+                                    <button class="hotel-search__bottom-send">
+                                        Tìm khách sạn
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-tap__golf row">
+                            <div class="content-tap__golf-loaction l-7">
+                                <div class="golf-search-text">
+                                    <div class="golf-search-text__item">
+                                        <i class="hotel-search__icon fa-solid fa-magnifying-glass"></i>
+                                        Tìm kiếm sân Golf
+                                    </div>
+                                    <div class="golf-search-text__item">
+                                        <i class="hotel-search__icon fa-solid fa-location-dot"></i>
+                                        Vị trí gần bạn
+                                    </div>
+                                </div>
+                                <input type="text" placeholder="Tìm sân Golf theo Tên/ Địa điểm/ ..." class="golf-search-input">
+                            </div>
+                            <div class="content-tap__golf-right l-5">
+                               <div class="row content-tap__golf-content ">
+                                    <div class="content-tap__golf-date l-6">
+                                        <div class="golf-date__text">
+                                            <i class="hotel-search__icon fa-regular fa-calendar-days"></i>
+                                            Ngày chơi
+                                        </div>
+                                        <input type="date" class="golf-date__input">
+                                    </div>
+                                    <div class="content-tap__golf-search l-6">
+                                        <button class="content-tap__golf-btn">
+                                            Tìm sân Golf
+                                        </button>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ticket-plane">
+            <div class=" container-item">
+                <div class="ticket-plane__top">
+                    <div class=" header-info">
+                        <span class=" header-info__text">
+                            Vé máy bay giá tốt
+                        </span>
+                        <div class=" header-info__more">
+                            Xem Thêm
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-plane__list row">
+                    <div class="ticket-plane__item col l-4">
+                        <a href="#" class="ticket-plane__item-link">
+                            <div class="ticket-plane__item-content">
+                                <div class="ticket-plane__item-top">
+                                    <div class="ticket-plane__item-airline">
+                                        <div class="item-airline__brand">
+                                            <img src="/img/logo_bamboo.png" alt="" class="item-airline__img">
+                                            <div class="item-airline__info">
+                                                Airbus A321 * Economy
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-item__price" style = "font-size: 1.8rem;">
+                                        95.000VND
+                                    </div>
+                                </div>
+                                <div class="ticket-plane__item-bt">
+                                    <div class="item-bt__left">
+                                        <div class="text-brand">Han</div>
+                                        <div class="text-description">Ha Noi</div>
+                                    </div>
+                                    <div class="item-bt__center">
+                                        <div class="text-description">Khởi hành:15/4/2023</div>
+                                        <div class="item-bt__center-direction">
+                                            <i class="center-direction__icon fa-solid fa-plane"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-bt__right">
+                                        <div class="text-brand">CXR</div>
+                                        <div class="text-description">Nha Trang</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ticket-plane__item col l-4">
+                        <a href="#" class="ticket-plane__item-link">
+                            <div class="ticket-plane__item-content">
+                                <div class="ticket-plane__item-top">
+                                    <div class="ticket-plane__item-airline">
+                                        <div class="item-airline__brand">
+                                            <img src="/img/logo_bamboo.png" alt="" class="item-airline__img">
+                                            <div class="item-airline__info">
+                                                Airbus A321 * Economy
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-item__price" style = "font-size: 1.8rem;">
+                                        95.000VND
+                                    </div>
+                                </div>
+                                <div class="ticket-plane__item-bt">
+                                    <div class="item-bt__left">
+                                        <div class="text-brand">Han</div>
+                                        <div class="text-description">Ha Noi</div>
+                                    </div>
+                                    <div class="item-bt__center">
+                                        <div class="text-description">Khởi hành:15/4/2023</div>
+                                        <div class="item-bt__center-direction">
+                                            <i class="center-direction__icon fa-solid fa-plane"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-bt__right">
+                                        <div class="text-brand">CXR</div>
+                                        <div class="text-description">Nha Trang</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ticket-plane__item col l-4">
+                        <a href="#" class="ticket-plane__item-link">
+                            <div class="ticket-plane__item-content">
+                                <div class="ticket-plane__item-top">
+                                    <div class="ticket-plane__item-airline">
+                                        <div class="item-airline__brand">
+                                            <img src="/img/logo_bamboo.png" alt="" class="item-airline__img">
+                                            <div class="item-airline__info">
+                                                Airbus A321 * Economy
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-item__price" style = "font-size: 1.8rem;">
+                                        95.000VND
+                                    </div>
+                                </div>
+                                <div class="ticket-plane__item-bt">
+                                    <div class="item-bt__left">
+                                        <div class="text-brand">Han</div>
+                                        <div class="text-description">Ha Noi</div>
+                                    </div>
+                                    <div class="item-bt__center">
+                                        <div class="text-description">Khởi hành:15/4/2023</div>
+                                        <div class="item-bt__center-direction">
+                                            <i class="center-direction__icon fa-solid fa-plane"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-bt__right">
+                                        <div class="text-brand">CXR</div>
+                                        <div class="text-description">Nha Trang</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ticket-plane__item col l-4">
+                        <a href="#" class="ticket-plane__item-link">
+                            <div class="ticket-plane__item-content">
+                                <div class="ticket-plane__item-top">
+                                    <div class="ticket-plane__item-airline">
+                                        <div class="item-airline__brand">
+                                            <img src="/img/logo_bamboo.png" alt="" class="item-airline__img">
+                                            <div class="item-airline__info">
+                                                Airbus A321 * Economy
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-item__price" style = "font-size: 1.8rem;">
+                                        95.000VND
+                                    </div>
+                                </div>
+                                <div class="ticket-plane__item-bt">
+                                    <div class="item-bt__left">
+                                        <div class="text-brand">Han</div>
+                                        <div class="text-description">Ha Noi</div>
+                                    </div>
+                                    <div class="item-bt__center">
+                                        <div class="text-description">Khởi hành:15/4/2023</div>
+                                        <div class="item-bt__center-direction">
+                                            <i class="center-direction__icon fa-solid fa-plane"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-bt__right">
+                                        <div class="text-brand">CXR</div>
+                                        <div class="text-description">Nha Trang</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ticket-plane__item col l-4">
+                        <a href="#" class="ticket-plane__item-link">
+                            <div class="ticket-plane__item-content">
+                                <div class="ticket-plane__item-top">
+                                    <div class="ticket-plane__item-airline">
+                                        <div class="item-airline__brand">
+                                            <img src="/img/logo_bamboo.png" alt="" class="item-airline__img">
+                                            <div class="item-airline__info">
+                                                Airbus A321 * Economy
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-item__price" style = "font-size: 1.8rem;">
+                                        95.000VND
+                                    </div>
+                                </div>
+                                <div class="ticket-plane__item-bt">
+                                    <div class="item-bt__left">
+                                        <div class="text-brand">Han</div>
+                                        <div class="text-description">Ha Noi</div>
+                                    </div>
+                                    <div class="item-bt__center">
+                                        <div class="text-description">Khởi hành:15/4/2023</div>
+                                        <div class="item-bt__center-direction">
+                                            <i class="center-direction__icon fa-solid fa-plane"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-bt__right">
+                                        <div class="text-brand">CXR</div>
+                                        <div class="text-description">Nha Trang</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ticket-plane__item col l-4">
+                        <a href="#" class="ticket-plane__item-link">
+                            <div class="ticket-plane__item-content">
+                                <div class="ticket-plane__item-top">
+                                    <div class="ticket-plane__item-airline">
+                                        <div class="item-airline__brand">
+                                            <img src="/img/logo_bamboo.png" alt="" class="item-airline__img">
+                                            <div class="item-airline__info">
+                                                Airbus A321 * Economy
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-item__price" style = "font-size: 1.8rem;">
+                                        95.000VND
+                                    </div>
+                                </div>
+                                <div class="ticket-plane__item-bt">
+                                    <div class="item-bt__left">
+                                        <div class="text-brand">Han</div>
+                                        <div class="text-description">Ha Noi</div>
+                                    </div>
+                                    <div class="item-bt__center">
+                                        <div class="text-description">Khởi hành:15/4/2023</div>
+                                        <div class="item-bt__center-direction">
+                                            <i class="center-direction__icon fa-solid fa-plane"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-bt__right">
+                                        <div class="text-brand">CXR</div>
+                                        <div class="text-description">Nha Trang</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="brands-plane">
+            <div class="container-item">
+                <div class=" header-info">
+                    <span class=" header-info__text">
+                        Đối tác hàng không
+                    </span>
+                    
+                </div>
+                <div class="brands-plane__list row">
+                    <div class="brands-plane__item col l-2">
+                        <a href="" class="brands-plane__link">
+                            <img src="/img/plane1.png" alt="" class="brands-plane__img">
+                        </a>
+                    </div>
+                    <div class="brands-plane__item col l-2">
+                        <a href="" class="brands-plane__link">
+                            <img src="/img/plane2.png" alt="" class="brands-plane__img">
+                        </a>
+                    </div>
+                    <div class="brands-plane__item col l-2">
+                        <a href="" class="brands-plane__link">
+                            <img src="/img/plane3.png" alt="" class="brands-plane__img">
+                        </a>
+                    </div>
+                    <div class="brands-plane__item col l-2">
+                        <a href="" class="brands-plane__link">
+                            <img src="/img/plane4.png" alt="" class="brands-plane__img">
+                        </a>
+                    </div>
+                    <div class="brands-plane__item col l-2">
+                        <a href="" class="brands-plane__link">
+                            <img src="/img/plane5.png" alt="" class="brands-plane__img">
+                        </a>
+                    </div>
+                    <div class="brands-plane__item col l-2">
+                        <a href="" class="brands-plane__link">
+                            <img src="/img/plane6.png" alt="" class="brands-plane__img">
+                        </a>
+                    </div>
+                    <div class="brands-plane__item col l-2">
+                        <a href="" class="brands-plane__link">
+                            <img src="/img/plane7.png" alt="" class="brands-plane__img">
+                        </a>
+                    </div>
+                    <div class="brands-plane__item col l-2">
+                        <a href="" class="brands-plane__link">
+                            <img src="/img/plane8.png" alt="" class="brands-plane__img">
+                        </a>
+                    </div>
+                    <div class="brands-plane__item col l-2">
+                        <a href="" class="brands-plane__link">
+                            <img src="/img/plane9.png" alt="" class="brands-plane__img">
+                        </a>
+                    </div>
+                    <div class="brands-plane__item col l-2">
+                        <a href="" class="brands-plane__link">
+                            <img src="/img/plane10png.png" alt="" class="brands-plane__img">
+                        </a>
+                    </div>
+                    <div class="brands-plane__item col l-2">
+                        <a href="" class="brands-plane__link">
+                            <img src="/img/plane11.png" alt="" class="brands-plane__img">
+                        </a>
+                    </div>
+                    <div class="brands-plane__item col l-2">
+                        <a href="" class="brands-plane__link">
+                            <img src="/img/plane12.png" alt="" class="brands-plane__img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-brands">
+            <div class="container-item">
+                <div class=" header-info">
+                    <span class=" header-info__text">
+                        Các chặng bay & hãng bay hàng đầu
+                    </span>
+                </div>
+                <div class="top-brands__list row">
+                    <div class="top-brands__item col l-3">
+                        <ul class="top-brands__ul">
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Vân Đồn
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Đồng Hới
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Vinh
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Quy Nhơn
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Đà Nẵng
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-brands__item col l-3">
+                        <ul class="top-brands__ul">
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Vân Đồn
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Đồng Hới
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Vinh
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Quy Nhơn
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Đà Nẵng
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-brands__item col l-3">
+                        <ul class="top-brands__ul">
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Vân Đồn
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Đồng Hới
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Vinh
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Quy Nhơn
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Đà Nẵng
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-brands__item col l-3">
+                        <ul class="top-brands__ul">
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Vân Đồn
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Đồng Hới
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Vinh
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Quy Nhơn
+                                </a>
+                            </li>
+                            <li class="top-brands__li">
+                                <a href="" class="top-brands__link">
+                                    Vé máy bay đi Đà Nẵng
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="download-app">
+            <div class="container-wrapper download-app__content">
+                <img src="/img/banner-download.png" alt="" class="download-app__banner">
+                <div class="download-app__list">
+                    <div class="download-app__item">
+                        <a href="" class = "download-app__link">
+                            <img src="/img/qrdownload.png" alt="" class="download-app__qr">
+                        </a>
+                    </div>
+                    <div class="download-app__item">
+                        <a href="https://apps.apple.com/vn/app/travel-link/id1561567992" class="download-app__link">
+                            <img src="/img/ic-appstore.png" alt="" class="download-app__img">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.vnlink.travellink" class="download-app__link">
+                            <img src="/img/ic-ggplay.png" alt="" class="download-app__img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="footer">
+        <div class="container-item">
+            <div class="footer-top row">
+                <div class="footer-top__left col l-5 row">
+                    <div class="footer-top__left-item col l-4">
+                        <h4 class="header-text">Về TravelLink</h4>
+                        <ul class="text-list">
+                            <li class="text-item">
+                                <a href="" class="text-link">Giới thiệu</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-top__left-item col l-8">
+                        <h4 class="header-text">Dịch vụ liên kết</h4>
+                        <ul class="text-list">
+                            <li class="text-item">
+                                <a href="" class="text-link">Travel Go - Đặt xe sân bay</a>
+                            </li>
+                            <li class="text-item">
+                                <a href="" class="text-link">Travel Hotel - Đặt phòng khách sạn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top__center col l-3">
+                    <h4 class="header-text">Hướng dẫn, chính sách và quy chế</h4>
+                        <ul class="text-list">
+                            <li class="text-item">
+                                <a href="" class="text-link">Quy chế hoạt động</a>
+                            </li>
+                            <li class="text-item">
+                                <a href="" class="text-link">Chính sách bảo mật thông tin</a>
+                            </li>
+                            <li class="text-item">
+                                <a href="" class="text-link">Cơ chế giải quyết tranh chấp</a>
+                            </li>
+                            <li class="text-item">
+                                <a href="" class="text-link">Tài liệu hướng dẫn sử dụng dịch vụ</a>
+                            </li>
+                            <li class="text-item">
+                                <a href="" class="text-link">Điều khoản sử dụng Travellink</a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="footer-top__right col l-4">
+                    <h4 class="header-text">Đăng ký nhận thông tin và ưu đãi</h4>
+                    <div class="footer-send">
+                        <input type="email" placeholder="Email của bạn" class="footer-input">
+                        <button class="footer-btn">
+                            <i class="footer-send__icon fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom row">
+                <div class="footer-top__bottom-left col l-5">
+                    <h4 class="header-text">CÔNG TY CỔ PHẦN CÔNG NGHỆ VÀ TRUYỀN THÔNG TLINHPHONG</h4>
+                    <h3 class="text-h3">
+                        Người đại diện: NGUYỄN TIẾN LINH PHONG
+                    </h3>
+                    <div class="address">
+                        <p class="address-text">
+                            Địa chỉ: Số 10-12 Trần Tử Bình, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam
+                        </p>
+                        <p class="address-text">
+                            Email: acelinhphong@gmail.com
+                        </p>
+                        <p class="address-text">
+                            Điện thoại: 1900 2323 85
+                        </p>
+                    </div>
+                    <div class="footer-brand">
+                        <a href="" class="footer-brand__link">
+                            <img src="/img/footer.png" style = "width: 200px;" alt="" class="footer-brand__img">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-top__bottom-right col l-4">
+                    <h4 class="header-text">Về TravelLink</h4>
+                    <div class="download-app">
+                        <div class="download-app__mobile">
+                            <a href="" class="download-app__link">
+                                <img src="/img/ic-appstore.png" alt="" class="download-app__img">
+                            </a>
+                            <a href="" class="download-app__link">
+                                <img src="/img/ic-ggplay.png" alt="" class="download-app__img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="download-qr">
+                        <a href="" class="download-app__link">
+                            <img src="/img/qr-code.png" style = "width: 120px; height: 120px; margin: 40px 0;" alt="" class="download-qr__img">
+
+                        </a>
+                    </div>
+                    <p class="address-text">
+                        Số Giấy chứng nhận đăng ký doanh nghiệp: 0109058713, ngày cấp lần đầu: 07/01/2020, nơi cấp Sở Kế hoạch và Đầu tư thành phố Hà Nội.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-wrapper" style = "margin-bottom: 60px;">
+            <div class="footer-contact">
+                <p class="footer-contact__info">
+                    Copyright © 2022 Travel Link
+                </p>
+                <ul class="footer-contact__social">
+                    <li class="footer-contact__item">
+                        <i class="fa-brands fa-facebook"></i>
+                        facebook
+                    </li>
+                    <li class="footer-contact__item">
+                        <i class="fa-brands fa-instagram"></i>
+                        instagram
+                    </li>
+                    <li class="footer-contact__item">
+                        <i class="fa-brands fa-youtube"></i>
+                        youtube
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>   
+   </div>
+   <script src = "./main.js"></script>
+</body>
+</html>
